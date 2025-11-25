@@ -4,18 +4,20 @@
  */
 
 package com.example.quiz;
-
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 /**
  *
  * @author YadavK
  */
 @RestController
-@RwquestMapping("question")
+@RequestMapping("question")
 public class QuestionController {
     
     @GetMapping("/allQuestion")
     public String getAllQuestion(){
-        return "Hi,These are our app"
+        return "Hi,These are our app";
     }
 
 }
