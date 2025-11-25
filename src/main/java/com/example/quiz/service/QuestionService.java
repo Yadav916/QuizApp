@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-package com.example.quiz;
+package com.example.quiz.service;
 
 /**
  *
